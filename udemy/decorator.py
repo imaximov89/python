@@ -15,5 +15,6 @@ def hello(greeting, emoji=':('):
 def bye(greeting):
     print('see ya')
 
+
 hello('111')
 bye('222')
