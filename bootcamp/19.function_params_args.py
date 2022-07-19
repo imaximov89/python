@@ -10,9 +10,10 @@ def arithmetic_operations(x, y):
     print(f"{x} + {y} = {x + y}")
     print(f"{x} - {y} = {x - y}")
 
-# arithmetic_operations(20, 5)
-# arithmetic_operations(112, 32)
-# arithmetic_operations(301, 201)
+
+arithmetic_operations(20, 5)
+arithmetic_operations(112, 32)
+arithmetic_operations(301, 201)
 
 # ***************------------ Example 5
 

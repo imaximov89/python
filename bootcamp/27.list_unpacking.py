@@ -1,35 +1,23 @@
 # ------------------------------------------------------------
-# -------------------**## List Unpacking ##**-----------------
+# -------------**## Tuple Packing & Unpacking ##**------------
 
 
-# ******------****** Example 12
+# ******------****** Example 5 ->>>> Tuple Packing
 
-# numbers = [23, 49, 85]
-# num1, num2, num3 = numbers
-# print(num1)
-# print(num2)
-# print(num3)
+to_do = "buy coffee", "read a book", "finish homework"
+print(to_do)
+print(type(to_do))
 
-# ******------****** Example 13
 
-numbers = [23, 49, 85, 1, 2, 3, 4, 5]
-# num1, num2, *other_nums = numbers
-# print(num1)
-# print(num2)
-# print(other_nums)
+# ******------****** Example 6 ->>>> Tuple Unpacking
+to_do1, to_do2, to_do3 = to_do
+print(to_do1)
+print(to_do2)
+print(to_do3)
 
-# ******------****** Example 14
 
-# num1, *other_nums, num2 = numbers
-# print(num1)
-# print(num2)
-# print(other_nums)
+# ******------****** Example 7 ->>>> Tuple with 1 element
 
-# ******------****** Example 15
-
-num1, num2, *other_nums, num3, num4 = numbers
-print(num1)
-print(num2)
-print(num3)
-print(num4)
-print(other_nums)
+name = ("Tommy",)
+print(name)
+print(type(name))

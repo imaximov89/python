@@ -7,8 +7,9 @@
 def sum(x, y):
     return x + y
 
-# print(sum(89, 98))
-# print(sum(89, 98, 23, 56, 45))
+
+print(sum(89, 98))
+#print(sum(89, 98, 23, 56, 45))
 
 # ***************------------ Example 10
 
@@ -16,7 +17,8 @@ def sum(x, y):
 def num(*numbers):
     return numbers
 
-# print(num(10, 21, 65, 112, 555, 666))
+
+print(num(10, 21, 65, 112, 555, 666))
 
 # ***************------------ Example 11
 
